@@ -1,0 +1,24 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/app_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node source/app_main.js",
+    "dev": "node-dev --no-notify source/app_main.js",
+    "migrate": "node source/dataBase/migrate.js",
+    "seed": "node source/dataBase/seeders/Seeder.js"
+  },
+  "author": "@wesley",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker-br": "^0.4.1",
+    "node": "^17.1.0",
+    "node-dev": "^7.1.0",
+    "sequelize": "^6.12.0-alpha.1",
+    "sqlite3": "^5.0.2"
+  }
+}
